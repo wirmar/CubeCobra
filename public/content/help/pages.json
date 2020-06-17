@@ -1,0 +1,20 @@
+[
+  {
+    "fileName": "home.md",
+    "name": "Home",
+    "description": "The welcome page.",
+    "level": 0
+  },
+  {
+    "fileName": "home.subpage.md",
+    "name": "Subpage",
+    "description": "The welcome page.",
+    "level": 1
+  },
+  {
+    "fileName": "filter_syntax.md",
+    "name": "Filter syntax guide",
+    "description": "Guide for the filter syntax.",
+    "level": 0
+  }
+]

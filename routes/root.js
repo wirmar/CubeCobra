@@ -405,6 +405,16 @@ router.get('/filters', (req, res) => {
   });
 });
 
+router.get('/help', (req, res) => {
+  res.redirect('/help/home.md');
+});
+
+router.get('/help/:help_page', (req, res) => {
+  res.render('info/help', {
+    loginCallback: `/help/${req.params.help_page}`,
+  });
+});
+
 router.get('/privacy', (req, res) => {
   res.render('info/privacy_policy', {
     loginCallback: '/privacy',
